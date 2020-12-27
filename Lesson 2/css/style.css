@@ -1,0 +1,27 @@
+@import url(./container.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.awesome {
+  font-family: Open Sans;
+}
+
+h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42.26px;
+}
+h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+
+h3 {
+  font-size: 20px;
+}

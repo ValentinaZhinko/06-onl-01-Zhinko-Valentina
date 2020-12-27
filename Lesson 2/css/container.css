@@ -1,0 +1,27 @@
+.awesome {
+  text-align: center;
+  max-width: 1170px;
+  padding: 16px;
+  margin: auto;
+}
+
+.awesome-line {
+  border-bottom: 2px solid #d98943;
+  width: 64px;
+  margin: auto;
+}
+.card {
+  width: 350px;
+  display: inline-block;
+}
+
+.card__icon {
+  border: 1px solid #d98943;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+}
+.card__image {
+  margin-top: 20px;
+}
