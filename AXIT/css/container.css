@@ -169,7 +169,6 @@ h2 {
   content: "";
   display: block;
 
-  
   height: 17px;
   background-color: transparent;
 
@@ -180,7 +179,7 @@ h2 {
 
   position: absolute;
   left: 39px;
-  top: 100%;s
+  top: 100%;
 }
 
 .customers__cards {
@@ -231,70 +230,76 @@ h5 {
   justify-content: flex-end;
 }
 .axure {
-  
   background: url("../images/background\ 1.png");
-        background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    margin-top: 100px;
-  }
-  
-  .axure::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.55);
-  }
-  .title__axure {
-font-family: Raleway;
-margin: 43px auto 34px auto;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-color: #FFFFFF;
-  }
-  .title__axure::after {
-    border-color: #ffffff;
-  }
-  .container__axure {
-    position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 100px;
+  padding-top: 58px;
+  padding-bottom: 29px;
+}
+
+.axure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+.title__axure {
+  font-family: Raleway;
+  margin: 43px auto 34px auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+}
+.title__axure::after {
+  border-color: #ffffff;
+}
+.container__axure {
+  position: relative;
   z-index: 1;
-  }
-  .subtitle__axure {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-  
-    text-align: center;
-  
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .axure__button {
-    display: block;
-    border: 1px solid #ffffff;
-    padding: 11px 26px;
-    margin: 57px auto 23px auto;
-    width: 135px;
-  
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-  
-    color: #ffffff;
-  }
-  
-  .axure__button:hover {
-    background-color: rgba(255, 255, 255, 0.55);
-  }
+}
+.subtitle__axure {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.axure__button {
+  display: block;
+  border: 1px solid #ffffff;
+  padding: 11px 26px;
+  margin: 57px auto 23px auto;
+  width: 135px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.axure__button:hover {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+.axure__line {
+  border-bottom: 2px solid #ffffff;
+  width: 64px;
+  margin: auto;
+}
