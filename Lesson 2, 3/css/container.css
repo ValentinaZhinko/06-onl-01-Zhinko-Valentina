@@ -140,3 +140,161 @@ h2 {
   line-height: 19.07px;
   text-align: center;
 }
+
+.customers__card {
+  width: 298px;
+  margin-top: 30px;
+}
+
+.customers__card-text {
+  background: #e2e2e2;
+  border-radius: 7px;
+
+  padding: 8px 20px 8px 20px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #86878b;
+  position: relative;
+
+  margin-bottom: 22px;
+}
+
+.customers__card-text::after {
+  content: "";
+  display: block;
+
+  
+  height: 17px;
+  background-color: transparent;
+
+  border-top: 12px solid #e2e2e2;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+
+  position: absolute;
+  left: 39px;
+  top: 100%;s
+}
+
+.customers__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+p {
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  padding: 9px 23px 6px 22px;
+  text-align: center;
+  color: #86878b;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+}
+
+.customers__card-info {
+  display: flex;
+}
+
+.customers__card-photo {
+  margin: 0 45px 0 45px;
+  width: 70px;
+  height: 70px;
+}
+h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+  text-align: center;
+  margin: 0px;
+}
+h5 {
+  color: #86878b;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+  display: flex;
+  justify-content: flex-end;
+}
+.axure {
+  
+  background: url("../images/background\ 1.png");
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+  }
+  
+  .axure::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+  }
+  .title__axure {
+font-family: Raleway;
+margin: 43px auto 34px auto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+  }
+  .title__axure::after {
+    border-color: #ffffff;
+  }
+  .container__axure {
+    position: relative;
+  z-index: 1;
+  }
+  .subtitle__axure {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+  
+    text-align: center;
+  
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .axure__button {
+    display: block;
+    border: 1px solid #ffffff;
+    padding: 11px 26px;
+    margin: 57px auto 23px auto;
+    width: 135px;
+  
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .axure__button:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+  }
