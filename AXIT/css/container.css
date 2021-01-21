@@ -303,3 +303,66 @@ h5 {
   width: 64px;
   margin: auto;
 }
+
+.contact_form-label {
+  color: #86878b;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.07px;
+  display: flex;
+  justify-content: right;
+  padding-bottom: 13px;
+  padding-top: 32px;
+}
+
+.contact_form-input {
+  border-color: #bdbdbd;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  width: 478px;
+}
+
+.contact_form-input:focus {
+  outline: none;
+}
+
+.contact_form-block {
+  display: flex;
+
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.contact_form-element {
+  display: flex;
+  justify-content: end;
+}
+.contact_form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.input-message {
+  height: 180px;
+}
+
+.contact_form-inputMessage:focus {
+  outline: none;
+}
+.contact_button {
+  background-color: #ec7979;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20.43px;
+  text-align: center;
+  margin-top: 67px;
+  padding: 11px 32px 11px 32px;
+  border: none;
+}
