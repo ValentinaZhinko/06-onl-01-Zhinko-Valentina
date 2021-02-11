@@ -399,6 +399,7 @@ h5 {
 
 .header {
   background-color: black;
+  max-width: 1170px;
 }
 .navigation_list li {
   color: #ffffff;
